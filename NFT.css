@@ -1,0 +1,410 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Noto Sans', sans-serif;
+}
+body{
+    background-color: #121315;
+    color: white;
+}
+
+.topic{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    border-bottom: 1px ridge rgba(255, 255, 255, .2);
+}
+
+.topic h1{
+    font-family: 'Aldrich', sans-serif;
+    font-size: 1.8rem;
+}
+
+.nft{
+    color: #ca159b;
+}
+
+.nft-icon span a{
+    margin-right: 1rem;
+    padding: .7rem 1rem;
+    text-decoration: none;
+}
+
+.nft-icon span a:hover{
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 4px;
+    transition: .5s background-color;
+}
+
+.nft-icon a.active{
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 4px;
+}
+
+.nft-icon span{
+    margin-top: .7rem;
+    padding-bottom: 1.5rem;
+    padding-bottom: -.9rem;
+}
+
+span a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.profile-image{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.profile-image-content{
+    display: flex;
+}
+
+.profile-image-content span{
+    margin-right: .8rem;
+    margin-top: .4rem;
+}
+
+.sub-content{
+    margin-left: .5rem;
+    margin-right: .7rem;
+}
+
+.sub-content .eth{
+    text-transform: uppercase;
+    opacity: revert;
+    color: #ca159b;
+}
+
+.profile-image-content2{
+    display: flex;
+}
+
+.profile-image-content2 img{
+    margin-left: .5rem;
+}
+
+.profile-image-content2 p{
+    margin-left: .5rem;
+    font-size: .8rem;
+}
+
+.profile-image-content p{
+    font-size: .8rem;
+}
+
+.profile-image img{
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.notify{
+    padding: .6rem;
+}
+.notify:hover,
+.notify:focus,
+.notify:checked{
+    background-color:  rgba(255, 255, 255, .1);
+    border-radius: 50%;
+    transition: .5s background-color;
+}
+
+/* .notify::after{
+    content: "";
+    background-color: #ca159b;
+    position: absolute;
+    top: 5.8rem;
+    right: 10.8rem;
+    width: .3rem;
+    height: .3rem;
+    border-radius: 50%;
+} */
+
+.plus a{
+    margin-left: -1.1rem;
+}
+
+.plus a:hover{
+    color: #ca159b;
+    transition: .5s color;
+}
+
+.checked{
+    color: lightblue;
+    position: relative;
+    top: 1rem;
+    left: -.3rem;
+}
+
+.side-icon span a{
+    margin: 0 1rem 0 0;
+    background-color: rgba(255, 255, 255, .1);
+    padding: .7rem;
+    border-radius: 50%;
+}
+
+.side-icon span a:hover{
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.side-icon{
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+
+.love{
+    color: red;
+}
+
+.option{
+   color: blue; 
+}
+
+.cancel{
+    color: azure;
+}
+
+.download{
+    color: yellow;
+}
+
+.header-content{
+    margin-top: 1rem;
+    line-height: 3.5rem;
+}
+
+.header-content h1{
+    font-family: 'Aldrich', sans-serif;
+    font-size: 3rem;
+}
+
+.nft-image{
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+.nft-image img{
+    width: 20rem;
+    border-radius: 5px;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.text{
+    margin-left: 13rem;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+.active {
+  background-color: #ca159b;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.price p{
+    text-align: center;
+    color:  rgba(255, 255, 255, .3);
+}
+
+.price h1{
+    font-family: 'Aldrich', sans-serif;
+    color: #ca159b;
+}
+
+.price-text{
+    margin-left: 1rem;
+}
+
+.price-text1{
+    margin-right: 1rem;
+}
+
+.button{
+    margin-left: 1.2rem;
+    text-align: center;
+}
+
+.buy{
+    background-color: white;
+    padding: .4rem 3rem;
+    border-radius: 7px;
+}
+
+.buy:hover{
+    background-color: rgb(39, 37, 37);
+    color: white; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.place{
+    padding: .4rem 3rem;
+    background-color: rgb(39, 37, 37);
+    border-radius: 7px;
+    margin-left: 2rem;
+    color: white;
+}
+
+
+.place:hover{
+    background-color: white;
+    color: black;
+}
+
+.price-text1 h1:last-child{
+    color: white;
+}
+
+.description{
+    text-align: center;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.dota {
+    width: .3rem;
+    height: .3rem;
+    background-color: #ca159b;
+    border-radius: 50%;
+    margin-left: -1rem;
+  }
+
+
+  @media screen and (min-width: 1240px){
+    .header-content{
+        margin-top: 1rem;
+        line-height: 5rem;
+    }
+    .header-content h1{
+        font-size: 5rem;
+    }
+
+    .header-text{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nft-image-flex{
+        margin-right: 5rem;
+    }
+
+    .price{
+        display: flex;
+        justify-content: left;
+        margin-bottom: 1rem;
+        margin-top: -5rem;
+    }
+
+    .price-text{
+        margin-left: 1rem;
+        margin-right: 4rem;
+    }
+    
+    .price-text1{
+        margin-right: 0;
+    }
+
+    .button{
+        margin-left: 1.2rem;
+        text-align: left;
+    }
+
+    .nft-image img{
+        width: 20rem;
+        border-radius: 5px;
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+  }
+
+
+  @media screen and (min-width: 900px){
+    .header-content{
+        margin-top: 1rem;
+        line-height: 4.5rem;
+    }
+    
+    
+    .header-content h1{
+        font-size: 3.9rem;
+    }
+
+    .header-text{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nft-image-flex{
+        margin-right: 3rem;
+    }
+
+    .price{
+        display: flex;
+        justify-content: left;
+        margin-bottom: 1rem;
+        margin-top: -2rem;
+    }
+
+    .price-text{
+        margin-left: 1rem;
+        margin-right: 4rem;
+    }
+    
+    .price-text1{
+        margin-right: 0;
+    }
+
+    .button{
+        margin-left: 1.2rem;
+        text-align: left;
+    }
+  }
+
+
+
+
+
+
+
+
